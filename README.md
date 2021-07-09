@@ -7,7 +7,7 @@ CFGS Cross-platform Application Development Final Project. It has been made in 9
 - Ubuntu Server
 - MySQL
 - phpCRUD API
-- apache2
+- Apache 2
 - Android Studio
 - OKHTTP
 - Git
