@@ -1,7 +1,7 @@
 # EZ_Order
 CFGS Cross-platform Application Development Final Project. It has been made in 90 days.
 
-## Technologies Used
+## Tools Used
 - Java
 - Oracle Cloud VM
 - Ubuntu Server
