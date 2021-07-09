@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_layoutrecyclercuina_layoutitem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="#F1DCBD"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textview_layout_recycler_cuina_numcomanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DE3C9A4"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="NºComanda"
+        android:textColor="#C83A5E26"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_layout_recycler_cuina_nomproducte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="nom del plat"
+            android:textColor="#D84E3625"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_layout_recycler_cuina_quantitat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="quantitat"
+            android:textColor="#D84E3625"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbutton_layout_recycler_cuina_enproces"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_round"
+            android:scaleType="fitCenter"
+            android:tooltipText="Preparar"
+            app:srcCompat="@android:drawable/presence_away" />
+
+        <ImageButton
+            android:id="@+id/imgbutton_layout_recycler_cuina_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_round"
+            android:scaleType="fitCenter"
+            android:tooltipText="Cancelar"
+            app:srcCompat="@android:drawable/presence_busy" />
+
+        <ImageButton
+            android:id="@+id/imgbutton_layout_recycler_cuina_finalitzat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_round"
+            android:scaleType="fitCenter"
+            android:tooltipText="Finalitzat"
+            app:srcCompat="@android:drawable/presence_online" />
+
+    </LinearLayout>
+
+</LinearLayout>

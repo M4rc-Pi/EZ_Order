@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1DCBD"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_taula_producte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_taula_nomProducte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Producte"
+            android:textColor="#D84E3625"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_taula_quantitatProducte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Quantitat"
+            android:textColor="#C83A5E26"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_taula_preuProducte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.75"
+            android:text="Preu"
+            android:textColor="#DCFF9800"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

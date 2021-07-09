@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1DCBD"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.empresa.FormulariAfegirProductesFragment">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textview_formulari_productes_tvcategoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Sel·lecciona categoria"
+        android:textColor="#F0881010" />
+
+    <Spinner
+        android:id="@+id/spinner_formulari_productes_spinnercategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#F0881010"
+        android:padding="5dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edittext_formulari_productes_nomproducte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nom del producte"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <EditText
+        android:id="@+id/edittext_formulari_productes_descripcioproducte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:fadeScrollbars="true"
+        android:gravity="start|top"
+        android:hint="Descripció del producte"
+        android:inputType="textMultiLine"
+        android:overScrollMode="ifContentScrolls"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textview_formulari_productes_checkboxes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Precaucions i avisos:"
+        android:textColor="#F0881010" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox_formulari_productes_alergens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Al·lèrgens"
+            android:textColor="#F0881010" />
+
+        <CheckBox
+            android:id="@+id/checkbox_formulari_productes_picant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Picant"
+            android:textColor="#F0881010" />
+
+        <CheckBox
+            android:id="@+id/checkbox_formulari_productes_veggie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Apte Vegetarians"
+            android:textColor="#F0881010" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext_formulari_productes_preuproducte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Preu"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/button_formulari_productes_btncarregarimatge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:onClick="onClickCarregaImg"
+            android:text="FOTO" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button_formulari_productes_btnguardarproducte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onClickCarregaImg"
+        android:text="GUARDAR PRODUCTE" />
+
+</LinearLayout>

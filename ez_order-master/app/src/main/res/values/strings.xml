@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acceptar">Acceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string-array name="taules">
+        <item>TAULA 1</item>
+        <item>TAULA 2</item>
+        <item>TAULA 3</item>
+        <item>TAULA 4</item>
+        <item>TAULA 5</item>
+        <item>TAULA 6</item>
+        <item>TAULA 7</item>
+    </string-array>
+    <string name="title_activity_carregar_imatge">CarregarImatgeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="buscar_producte">Buscar producte</string>
+
+    <string-array name="puntuacions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

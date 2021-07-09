@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="EZOrder(v2)" external.linked.project.path="/dades/dades/mpicas/android-studio-sdk-linux_NOU/android-projects/EZOrder_Projecte" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="/dades/dades/mpicas/android-studio-sdk-linux_NOU/android-projects/EZOrder_Projecte/build" />
+        <option name="BUILDABLE" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file:///dades/dades/mpicas/android-studio-sdk-linux_NOU/android-projects/EZOrder_Projecte">
+      <excludeFolder url="file:///dades/dades/mpicas/android-studio-sdk-linux_NOU/android-projects/EZOrder_Projecte/.gradle" />
+      <excludeFolder url="file:///dades/dades/mpicas/android-studio-sdk-linux_NOU/android-projects/EZOrder_Projecte/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

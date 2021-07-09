@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCFF9800"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/fragment_container_main_activity"
+            android:name="cat.inspedralbes.projecte2dam.ezorderv2.fragments.HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutbuttons_mainactivity_menuinferior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F23C0808"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_main_activity_obrircategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onClickCanviaFragment"
+            android:text="CATEGORIES"
+            android:textColor="#4E3625"
+            android:textStyle="bold"
+            app:backgroundTint="#DCFF9800" />
+
+        <Button
+            android:id="@+id/button_main_activity_obrirproductes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onClickCanviaFragment"
+            android:text="PRODUCTES"
+            android:textColor="#4E3625"
+            android:textStyle="bold"
+            app:backgroundTint="#DCFF9800" />
+
+        <Button
+            android:id="@+id/button_main_activity_obrircistella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onClickCanviaFragment"
+            android:text="CISTELLA"
+            android:textColor="#4E3625"
+            android:textStyle="bold"
+            app:backgroundTint="#DCFF9800" />
+
+        <Button
+            android:id="@+id/button_main_activity_valoracions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickCanviaFragment"
+            android:text="Valorar"
+            android:textColor="#D84E3625"
+            android:textStyle="bold"
+            app:backgroundTint="#DCFF9800" />
+
+    </LinearLayout>
+</LinearLayout>

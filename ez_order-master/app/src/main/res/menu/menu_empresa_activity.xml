@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:tooltipText="@string/buscar_producte"
+        android:title="@string/buscar_producte"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/novacomanda_menu_empresa_activity"
+        android:icon="@drawable/ez_order"
+        android:title="Menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/enviarcomanda_menu_empresa_activity"
+        android:icon="@drawable/add_cart"
+        android:title="enviar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnitem_empresa_activity_inserirproductes"
+        android:title="Alta productes" />
+
+</menu>

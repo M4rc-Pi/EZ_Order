@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--https://www.imagefu.com/ button generator-->
+    <item android:drawable="@drawable/btn_yellow_pressed" android:state_pressed="true" /> <!-- pressed -->
+    <item android:drawable="@drawable/btn_yellow" /> <!-- default -->
+
+</selector>
